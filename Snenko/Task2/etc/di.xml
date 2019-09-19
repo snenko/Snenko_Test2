@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="color_change" xsi:type="object">Snenko\Task2\Console\Command\ColorChangeCommand</item>
+                <item name="colors_remove" xsi:type="object">Snenko\Task2\Console\Command\ColorsRemoveCommand</item>
+                <item name="colors_show" xsi:type="object">Snenko\Task2\Console\Command\ColorsShowCommand</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
