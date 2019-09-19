@@ -1,4 +1,4 @@
-For install module into the your project:
+<h2>For install module into the your project:</h2>
 1. download this module into app/code/ folder of your project
 2. run bin/magento setup:uprgade command
 3. run bin/magento cache:clean
